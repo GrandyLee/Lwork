@@ -21,7 +21,7 @@ def encrypt():
 def decrypt():
     decrypt_str = 'JQ5t6L5WbN7uuHEqCYAUEwi1bkEB61ba3xWEpzKDHUMVMXZZUIZti4TAXkxyhkak'
     decrypt_data = crypt.decrypt(decrypt_str)
-    print (decrypt_data)
+    print ('\n'+decrypt_data)
 
 if __name__ == '__main__':
     decrypt()
